@@ -6,7 +6,7 @@ Xml convert to JSON.
 Installation
 ============
 
-nmp install json-from-xml
+npm install json-from-xml
 
 Usage
 =====
@@ -74,7 +74,7 @@ console.log(getData(xml));
 ```
 Result
 -------------------
-```
+```json
     {
         name: 'CBU Currency XML by ISO 4217',
         CcyNtry: {
@@ -108,7 +108,7 @@ fs.readFile(__dirname + '/foo.xml', function(err, data) {
 ```
 Result
 -------------------
-```
+```json
     {
         name: 'CBU Currency XML by ISO 4217',
         CcyNtry: {
@@ -140,7 +140,7 @@ request('http://cbu.uz/uzc/arkhiv-kursov-valyut/xml/USD/2017:02:11/')
 ```
 Result
 -------------------
-```
+```json
     {
         name: 'CBU Currency XML by ISO 4217',
         CcyNtry: {
