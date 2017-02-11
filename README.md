@@ -74,7 +74,7 @@ console.log(getData(xml));
 ```
 Result
 -------------------
-```json
+```javascript
     {
         name: 'CBU Currency XML by ISO 4217',
         CcyNtry: {
@@ -108,7 +108,7 @@ fs.readFile(__dirname + '/foo.xml', function(err, data) {
 ```
 Result
 -------------------
-```json
+```javascript
     {
         name: 'CBU Currency XML by ISO 4217',
         CcyNtry: {
@@ -140,7 +140,7 @@ request('http://cbu.uz/uzc/arkhiv-kursov-valyut/xml/USD/2017:02:11/')
 ```
 Result
 -------------------
-```json
+```javascript
     {
         name: 'CBU Currency XML by ISO 4217',
         CcyNtry: {
