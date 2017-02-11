@@ -40,7 +40,7 @@ var xml = `<?xml version="1.0" encoding="UTF-8"?>
 
 ```javascript
 
-var XmlParser = var parser = require('json-from-xml');
+var XmlParser = require('json-from-xml');
 var result = XmlParser.parse(xml);
 
 console.log(result);
@@ -48,7 +48,7 @@ console.log(result);
 
 ```javascript
 
-var XmlParser = var parser = require('json-from-xml');
+var XmlParser = require('json-from-xml');
 var result = XmlParser.parse(xml);
 
 console.log(result);
@@ -58,11 +58,11 @@ or ES6 usage
 ----------------------
 
 ```javascript
-var XmlParser = var parser = require('json-from-xml').Promise;
+var XmlParser = require('json-from-xml').Promise;
 
 async function getData(xml){
     try{
-        var result = XmlParser.parse(xml);
+        var result = await XmlParser.parse(xml);
         return result;
     }
     catch(error){
@@ -98,7 +98,7 @@ Simple as pie usage
 ```javascript
 
 var fs = require('fs'),
-var XmlParser = var parser = require('json-from-xml');
+var XmlParser = require('json-from-xml');
 
 fs.readFile(__dirname + '/foo.xml', function(err, data) {
     var result = XmlParser.parse(data);
@@ -130,7 +130,7 @@ One more example
 -------------------
 ```javascript
 var request = require('request');
-var XmlParser = var parser = require('json-from-xml');
+var XmlParser = require('json-from-xml');
 
 request('http://cbu.uz/uzc/arkhiv-kursov-valyut/xml/USD/2017:02:11/')
     .on('data', function (data) {
@@ -157,5 +157,3 @@ Result
         }
     }
 ```
-
-
