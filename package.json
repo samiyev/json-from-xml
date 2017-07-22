@@ -1,10 +1,10 @@
 {
-    "name": "json-from-xml",
-    "version": "1.0.0",
+    "name": "@samiyev/json-from-xml",
+    "version": "1.2.4",
     "license": "MIT",
     "description": "Xml convert to JSON",
     "main": "lib/index.js",
-    "homepage": "https://github.com/installerUzb/json-from-xml.git",
+    "homepage": "https://github.com/samiyev/json-from-xml.git",
     "author": "Fozilbek Samiyev <fozilbek.samiyev@paycom.uz>",
 
     "scripts": {
@@ -13,7 +13,7 @@
 
     "repository": {
         "type": "git",
-        "url": "https://github.com/installerUzb/json-from-xml.git"
+        "url": "https://github.com/samiyev/json-from-xml.git"
     },
 
     "dependencies": {
